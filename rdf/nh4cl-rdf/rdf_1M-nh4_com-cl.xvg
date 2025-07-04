@@ -1,4 +1,4 @@
-# This file was created Fri Jul  4 11:44:41 2025
+# This file was created Fri Jul  4 12:32:00 2025
 # Created by:
 #                       :-) GROMACS - gmx rdf, 2022.5 (-:
 # 
@@ -6,10 +6,10 @@
 # Data prefix:  /home/tjli/Programs/gromacs-2022
 # Working dir:  /home/heiley/WaterBox/NH4Cl/nh4cl-1M-4-4-4-box/rdf
 # Command line:
-#   gmx rdf -f ../step6_production.xtc -s ../step6_production.tpr -ref 'resname NH4' -sel 'name CLA' -rmax 1 -o rdf_nh4_com-cl.xvg -cn rdf_nh4_com-cl_cn.xvg
+#   gmx rdf -f ../step6_production.xtc -s ../step6_production.tpr -ref 'resname NH4' -sel 'name CLA' -selrpos res_com -rmax 1 -o rdf_nh4_com1-cl.xvg -cn rdf_nh4_com1-cl_cn.xvg
 # gmx rdf is part of G R O M A C S:
 #
-# GRoups of Organic Molecules in ACtion for Science
+# GROningen MAchine for Chemical Simulation
 #
 @    title "Radial distribution"
 @    xaxis  label "r (nm)"
