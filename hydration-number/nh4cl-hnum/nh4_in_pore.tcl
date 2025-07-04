@@ -56,8 +56,8 @@ set out [open nh4-in-pore.dat w]
 set out2 [open nh4-in-pore-protein.dat w]
 set all [atomselect top all]
 
-set cutoff_O 3.85; # to be replaced by g(r) min location
-set cutoff_H 2.92; # to be replaced by g(r) min location
+set cutoff_O 3.66; # to be replaced by g(r) min location
+set cutoff_H 4.38; # to be replaced by g(r) min location
 set pro [atomselect top "protein"]
 set popc [atomselect top "name P"]
 
