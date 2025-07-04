@@ -1,0 +1,20 @@
+
+# Box size: 4x4x4 nm
+
+# NH4 CoM: 
+gmx rdf -f ../step6_production.xtc -s ../step6_production.tpr -ref 'resname NH4' -sel 'name CLA' -selrpos res_com -rmax 1 -o rdf_nh4_com1-cl.xvg -cn rdf_nh4_com1-cl_cn.xvg
+
+# N, Cl, O
+
+gmx rdf -f ../step5_1.xtc -s ../step4.0_minimization.tpr -ref 'name CLA' -sel 'name OH2' -rmax 1 -o rdf_cl-o.xvg -cn rdf_cl-o_cn.xvg
+
+gmx rdf -f ../step5_1.xtc -s ../step4.0_minimization.tpr -ref 'name NZ' -sel 'name OH2' -rmax 1 -o rdf_nh4-o.xvg -cn rdf_nh4-o_cn.xvg
+
+gmx rdf -f ../step5_1.xtc -s ../step4.0_minimization.tpr -ref 'name CLA' -sel 'name H1 H2' -rmax 1 -o rdf_cl-h.xvg -cn rdf_cl-h_cn.xvg
+
+gmx rdf -f ../step5_1.xtc -s ../step4.0_minimization.tpr -ref 'name NZ' -sel 'name H1 H2' -rmax 1 -o rdf_nh4-h.xvg -cn rdf_nh4-h_cn.xvg
+
+gmx rdf -f ../step6_production.xtc -s ../step6_production.tpr -ref 'name NZ' -sel 'name CLA' -rmax 1 -o rdf_nh4-cl.xvg -cn rdf_nh4-cl_cn.xvg
+
+gmx rdf -f ../step5_1.xtc -s ../step4.0_minimization.tpr -ref 'name SOD' -sel 'name CLA' -rmax 1 -o rdf_na-cl.xvg -cn rdf_na-cl_cn.xvg
+
