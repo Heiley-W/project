@@ -1,0 +1,8 @@
+REMARK   DATE:     2/ 5/21     14:46:32      CREATED BY USER: nathan                  
+ATOM      1  HZ1 NH4 N   1      -0.571   0.792   0.358  1.00  0.00      NH4 
+ATOM      2  NZ  NH4 N   1      -0.000  -0.000  -0.000  1.00  0.00      NH4 
+ATOM      3  HZ2 NH4 N   1       0.993   0.135   0.279  1.00  0.00      NH4 
+ATOM      4  HZ3 NH4 N   1      -0.355  -0.892   0.401  1.00  0.00      NH4 
+ATOM      5  HZ4 NH4 N   1      -0.067  -0.035  -1.037  1.00  0.00      NH4 
+TER       6      NH4      1
+END

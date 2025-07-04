@@ -50,7 +50,7 @@ proc mycoordnum {frame} {
 
 source ./bigdcd.tcl
 
-mol load pdb /Volumes/Untitled/run1/post-processing/traj-fit-nodt.pdb
+mol load pdb ../traj-fit-nodt.pdb
 
 set out [open nh4-in-pore.dat w]
 set out2 [open nh4-in-pore-protein.dat w]
@@ -63,9 +63,9 @@ set popc [atomselect top "name P"]
 
 set squareR 225; # radius 15A, 15*15 = 225 --- please note that if you increase halfL this may also need to be slightly increased --- check in VMD visualization
 
-bigdcd mycoordnum /Volumes/Untitled/run1/post-processing/traj-fit-nodt.xtc
+bigdcd mycoordnum ../traj-fit-nodt.xtc
 bigdcd_wait ; # important
 
 close $out;
-#exit; # comment this out in debugging
+exit; # comment this out in debugging
 
