@@ -14,7 +14,19 @@ gmx rdf -f ../step5_1.xtc -s ../step4.0_minimization.tpr -ref 'name CLA' -sel 'n
 
 gmx rdf -f ../step5_1.xtc -s ../step4.0_minimization.tpr -ref 'name NZ' -sel 'name H1 H2' -rmax 1 -o rdf_nh4-h.xvg -cn rdf_nh4-h_cn.xvg
 
-gmx rdf -f ../step6_production.xtc -s ../step6_production.tpr -ref 'name NZ' -sel 'name CLA' -rmax 1 -o rdf_nh4-cl.xvg -cn rdf_nh4-cl_cn.xvg
+gmx rdf -f ../step6_production.xtc -s ../step6_production.tpr -ref 'name NZ' -sel 'name CLA' -rmax 1 -o rdf_n-cl.xvg -cn rdf_n-cl_cn.xvg
+gmx rdf -f ../step6_production.xtc -s ../step6_production.tpr -ref 'name NZ' -sel 'name OH2' -rmax 1 -o rdf_n-o.xvg -cn rdf_n-o_cn.xvg
+gmx rdf -f ../step6_production.xtc -s ../step6_production.tpr -ref 'name NZ' -sel 'name H1 H2' -rmax 1 -o rdf_n-h.xvg -cn rdf_n-h_cn.xvg
+gmx rdf -f ../step6_production.xtc -s ../step6_production.tpr -ref 'name CLA' -sel 'name OH2' -rmax 1 -o rdf_cl-o.xvg -cn rdf_cl-o_cn.xvg
+gmx rdf -f ../step6_production.xtc -s ../step6_production.tpr -ref 'name CLA' -sel 'name H1 H2' -rmax 1 -o rdf_cl-h.xvg -cn rdf_cl-h_cn.xvg
+
+gmx rdf -f ../step6_production.xtc -s ../step6_production.tpr -ref 'name OH2' -sel 'name NZ' -rmax 1 -o rdf_o-n.xvg -cn rdf_o-n_cn.xvg
+
+gmx rdf -f ../step6_production.xtc -s ../step6_production.tpr -ref 'name OH2' -sel 'name CLA' -rmax 1 -o rdf_o-cl.xvg -cn rdf_o-cl_cn.xvg
+
+gmx rdf -f ../step6_production.xtc -s ../step6_production.tpr -ref 'name H1 H2' -sel 'name NZ' -rmax 1 -o rdf_h-n.xvg -cn rdf_h-n_cn.xvg
+
+gmx rdf -f ../step6_production.xtc -s ../step6_production.tpr -ref 'name H1 H2' -sel 'name CLA' -rmax 1 -o rdf_h-cl.xvg -cn rdf_h-cl_cn.xvg
 
 gmx rdf -f ../step5_1.xtc -s ../step4.0_minimization.tpr -ref 'name SOD' -sel 'name CLA' -rmax 1 -o rdf_na-cl.xvg -cn rdf_na-cl_cn.xvg
 
