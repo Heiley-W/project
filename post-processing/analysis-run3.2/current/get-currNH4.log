@@ -1,0 +1,317 @@
+Info) VMD for LINUXAMD64, version 1.9.4a12 (December 21, 2017)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 32 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA AVX512F AVX512CD 
+Info) Free system memory: 55GB (88%)
+Info) Creating CUDA device pool and initializing hardware...
+Info) Detected 4 available CUDA accelerators:
+Info) [0] NVIDIA GeForce GTX 1080 Ti 28 SM_6.1 1.58 GHz, 11GB RAM, AE2, ZCP
+Info) [1] NVIDIA GeForce GTX 1080 Ti 28 SM_6.1 1.58 GHz, 11GB RAM, AE2, ZCP
+Info) [2] NVIDIA GeForce GTX 1080 Ti 28 SM_6.1 1.58 GHz, 11GB RAM, AE2, ZCP
+Info) [3] NVIDIA GeForce GTX 1080 Ti 28 SM_6.1 1.58 GHz, 11GB RAM, AE2, ZCP
+Info) Detected 4 available TachyonL/OptiX ray tracing accelerators
+Info)   Compiling 1 OptiX shaders on 4 target GPUs...
+Info) Dynamically loaded 3 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+10
+file58
+file59
+file60
+Info) Using plugin pdb for structure file ../traj-fit-nodt.pdb
+Info) Using plugin pdb for coordinates from file ../traj-fit-nodt.pdb
+Info) Determining bond structure from distance search ...
+Info) Finished with coordinate file ../traj-fit-nodt.pdb.
+Info) Analyzing structure ...
+Info)    Atoms: 61404
+Info)    Bonds: 48291
+Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 13646
+Info)    Waters: 12756
+Warning) Unusual bond between residues:  140 (none) and 3257 (waters)
+Warning) Unusual bond between residues:  494 (none) and 3195 (waters)
+Warning) Unusual bond between residues:  500 (none) and 2073 (waters)
+Warning) Unusual bond between residues:  520 (none) and 9799 (waters)
+Warning) Unusual bond between residues:  580 (none) and 9976 (waters)
+Warning) Unusual bond between residues:  658 (none) and 746 (waters)
+Info)    Segments: 1
+Info)    Fragments: 13365   Protein: 6   Nucleic: 0
+0
+atomselect0
+37.826351165771484 37.83000946044922 57.55400466918945
+57.55400466918945
+67.55400466918945
+47.55400466918945
+atomselect1
+463 566 628 1126 1229 1291 1789 1892 1954 2452 2555 2617 3115 3218 3280 3778 3881 3943 21763 21768 21773 21778 21783 21788 21793 21798 21803 21808 21813 21818 21823 21828 21833 21838 21843 21848 21853 21858 21863 21868 21873 21878 21883 21888 21893 21898 21903 21908 21913 21918 21923 21928 21933 21938 21943 21948 21953 21958 21963 21968 21973 21978 21983 21988 21993 21998 22003 22008 22013 22018 22023 22028 22033 22038 22043 22048 22053 22058 22063 22068 22073 22078 22083 22088 22093 22098 22103 22108 22113 22118 22123 22128 22133 22138 22143 22148 22153 22158 22163 22168 22173 22178 22183 22188 22193 22198 22203 22208 22213 22218 22223 22228 22233 22238 22243 22248 22253 22258 22263 22268 22273 22278 22283 22288 22293 22298 22303 22308 22313 22318 22323 22328 22333 22338 22343 22348 22353 22358 22363 22368 22373 22378 22383 22388 22393 22398 22403 22408 22413 22418 22423 22428 22433 22438 22443 22448 22453 22458 22463 22468 22473 22478 22483 22488 22493 22498 22503 22508 22513 22518 22523 22528 22533 22538 22543 22548 22553 22558 22563 22568 22573 22578 22583 22588 22593 22598 22603 22608 22613 22618 22623 22628 22633 22638 22643 22648 22653 22658 22663 22668 22673 22678 22683 22688 22693 22698 22703 22708 22713 22718 22723 22728 22733 22738 22743 22748 22753 22758 22763 22768 22773 22778 22783 22788 22793 22798 22803 22808 22813 22818 22823 22828 22833 22838 22843 22848 22853 22858 22863 22868 22873 22878 22883 22888 22893 22898 22903
+0
+0
+0
+Info) Using plugin xtc for coordinates from file ../traj-fit-nodt.xtc
+Done with frame 1
+after#0
+vmd > Done with frame 2
+Done with frame 3
+Done with frame 4
+Done with frame 5
+Done with frame 6
+Done with frame 7
+Done with frame 8
+Done with frame 9
+Done with frame 10
+Done with frame 11
+Done with frame 12
+Done with frame 13
+Done with frame 14
+Done with frame 15
+Done with frame 16
+Done with frame 17
+Done with frame 18
+Done with frame 19
+Done with frame 20
+Done with frame 21
+Done with frame 22
+Done with frame 23
+Done with frame 24
+Done with frame 25
+Done with frame 26
+Done with frame 27
+Done with frame 28
+Done with frame 29
+Done with frame 30
+Done with frame 31
+Done with frame 32
+Done with frame 33
+Done with frame 34
+Done with frame 35
+Done with frame 36
+Done with frame 37
+Done with frame 38
+Done with frame 39
+Done with frame 40
+Done with frame 41
+Done with frame 42
+Done with frame 43
+Done with frame 44
+Done with frame 45
+Done with frame 46
+Done with frame 47
+Done with frame 48
+Done with frame 49
+Done with frame 50
+Done with frame 51
+Done with frame 52
+Done with frame 53
+Done with frame 54
+Done with frame 55
+Done with frame 56
+Done with frame 57
+Done with frame 58
+Done with frame 59
+Done with frame 60
+Done with frame 61
+Done with frame 62
+Done with frame 63
+Done with frame 64
+Done with frame 65
+Done with frame 66
+Done with frame 67
+Done with frame 68
+Done with frame 69
+Done with frame 70
+Done with frame 71
+Done with frame 72
+Done with frame 73
+Done with frame 74
+Done with frame 75
+Done with frame 76
+Done with frame 77
+Done with frame 78
+Done with frame 79
+Done with frame 80
+Done with frame 81
+Done with frame 82
+Done with frame 83
+Done with frame 84
+Done with frame 85
+Done with frame 86
+Done with frame 87
+Done with frame 88
+Done with frame 89
+Done with frame 90
+Done with frame 91
+Done with frame 92
+Done with frame 93
+Done with frame 94
+Done with frame 95
+Done with frame 96
+Done with frame 97
+Done with frame 98
+Done with frame 99
+Done with frame 100
+Done with frame 101
+Done with frame 102
+Done with frame 103
+Done with frame 104
+Done with frame 105
+Done with frame 106
+Done with frame 107
+Done with frame 108
+Done with frame 109
+Done with frame 110
+Done with frame 111
+Done with frame 112
+Done with frame 113
+Done with frame 114
+Done with frame 115
+Done with frame 116
+Done with frame 117
+Done with frame 118
+Done with frame 119
+Done with frame 120
+Done with frame 121
+Done with frame 122
+Done with frame 123
+Done with frame 124
+Done with frame 125
+Done with frame 126
+Done with frame 127
+Done with frame 128
+Done with frame 129
+Done with frame 130
+Done with frame 131
+Done with frame 132
+Done with frame 133
+Done with frame 134
+Done with frame 135
+Done with frame 136
+Done with frame 137
+Done with frame 138
+Done with frame 139
+Done with frame 140
+Done with frame 141
+Done with frame 142
+Done with frame 143
+Done with frame 144
+Done with frame 145
+Done with frame 146
+Done with frame 147
+Done with frame 148
+Done with frame 149
+Done with frame 150
+Done with frame 151
+Done with frame 152
+Done with frame 153
+Done with frame 154
+Done with frame 155
+Done with frame 156
+Done with frame 157
+Done with frame 158
+Done with frame 159
+Done with frame 160
+Done with frame 161
+Done with frame 162
+Done with frame 163
+Done with frame 164
+Done with frame 165
+Done with frame 166
+Done with frame 167
+Done with frame 168
+Done with frame 169
+Done with frame 170
+Done with frame 171
+Done with frame 172
+Done with frame 173
+Done with frame 174
+Done with frame 175
+Done with frame 176
+Done with frame 177
+Done with frame 178
+Done with frame 179
+Done with frame 180
+Done with frame 181
+Done with frame 182
+Done with frame 183
+Done with frame 184
+Done with frame 185
+Done with frame 186
+Done with frame 187
+Done with frame 188
+Done with frame 189
+Done with frame 190
+Done with frame 191
+Done with frame 192
+Done with frame 193
+Done with frame 194
+Done with frame 195
+Done with frame 196
+Done with frame 197
+Done with frame 198
+Done with frame 199
+Done with frame 200
+Done with frame 201
+Done with frame 202
+Done with frame 203
+Done with frame 204
+Done with frame 205
+Done with frame 206
+Done with frame 207
+Done with frame 208
+Done with frame 209
+Done with frame 210
+Done with frame 211
+Done with frame 212
+Done with frame 213
+Done with frame 214
+Done with frame 215
+Done with frame 216
+Done with frame 217
+Done with frame 218
+Done with frame 219
+Done with frame 220
+Done with frame 221
+Done with frame 222
+Done with frame 223
+Done with frame 224
+Done with frame 225
+Done with frame 226
+Done with frame 227
+Done with frame 228
+Done with frame 229
+Done with frame 230
+Done with frame 231
+Done with frame 232
+Done with frame 233
+Done with frame 234
+Done with frame 235
+Done with frame 236
+Done with frame 237
+Done with frame 238
+Done with frame 239
+Done with frame 240
+Done with frame 241
+Done with frame 242
+Done with frame 243
+Done with frame 244
+Done with frame 245
+Done with frame 246
+Done with frame 247
+Done with frame 248
+Done with frame 249
+Done with frame 250
+Done with frame 251
+Done with frame 252
+Done with frame 253
+Done with frame 254
+Done with frame 255
+Done with frame 256
+Done with frame 257
+Done with frame 258
+Done with frame 259
+Done with frame 260
+Done with frame 261
